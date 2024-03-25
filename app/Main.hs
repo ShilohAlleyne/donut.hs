@@ -161,7 +161,6 @@ main :: IO ()
 main = do
     print "Nah, I'd win"
     mapM_ (\frame -> do
-        clearScreen
         setCursorPosition 0 0
         pprint $ renderFrame frame) frames
 
